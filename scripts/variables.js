@@ -1,4 +1,4 @@
-console.log("faehfakjdfadjflajfj");
+console.log("My script is working");
 
 let firstName = "Leomar";
 let myAge = 999;
