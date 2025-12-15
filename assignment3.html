@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+
+    <style>
+    
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            font-size: 48px;
+            padding: 15px 30px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        #results {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .hot {
+            color: red;
+        }
+
+        .cold {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Temperature Converter</h2>
+
+    <button onclick="runConverter()">Convert Temperature</button>
+
+    <div id="results"></div>
+
+    <script src="scripts/assignment3.js"></script>
+</body>
+</html>
