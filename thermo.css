@@ -1,0 +1,15 @@
+#thermo{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 300px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.level{
+    height: 9%;
+    margin: 2px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Temperature Dashboard</title>
+
+<link rel="stylesheet" href="finalProject.css" />
+</head>
+<body>
+
+<h1 class="title">🌡 Temperature Dashboard</h1>
+
+<div class="card">
+    <h2>Convert a Temperature</h2>
+
+    <div class="button-row">
+    <button onclick="convertCtoF()">Celsius ➡ Fahrenheit</button>
+    <button onclick="convertFtoC()">Fahrenheit ➡ Celsius</button>
+    </div>
+
+    <p id="results"></p>
+
+    <div class="thermo-wrap">
+    <div id="thermo"></div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Conversion Table (0 to 100 °C)</h2>
+
+    <button onclick="generateTable()">Generate Table</button>
+
+    <table>
+    <thead>
+        <tr>
+        <th>Celsius (°C)</th>
+        <th>Fahrenheit (°F)</th>
+        </tr>
+    </thead>
+    <tbody id="tmpTable"></tbody>
+    </table>
+</div>
+
+
+<script src="scripts/finalProject.js"></script>
+</body>
+</html>
